@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La novedad del reloj</title>
+
+    <!--  fuente -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- links  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+ 
+</head>
+<body>
+
+<!-- menu de navegación -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">La novedad del reloj<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Quienes somos</a>
+        <a href="#products">Productos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart" id="verCarrito"><span id="cantidadCarrito" class="cantidad-carrito"></span></a>
+    </div>
+
+</header>
+
+<!-- banner -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>La novedad del reloj</h3>
+        <span> almacen de joyeria  </span>
+        <p>Somos un almacen especialista en venta de joyas de oro, plateria y relojes de pared</strong></p>
+        <a href="#products" class="btn">Comprar ahora</a>
+    </div>
+    
+</section>
+
+
+<!-- quienes somos-->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> Quienes</span> somos </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <video src="imagenes/video.mp4" loop autoplay muted></video>
+        </div>
+
+        <div class="content">
+            <p>📍 La novedad del reloj es un almacen ubicado en el centro comercial ayacucho carabobo - local 102.
+            </p>
+            <p>Somos un almacen de joyeria donde podras encontrar variedad de productos tanto para dama como para hombre.</p>
+            <p>
+                Somos especialistas en la venta de: <strong>anillos, cadenas, dijes, topos, anillos de de 15's y anillos de grado.</strong>
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- productos. -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Ultimas <span>novedades</span> </h1>
+
+    <!-- products container -->
+
+    <div id="shopContent" class="shop-content"></div>
+
+    <!-- modal container -->
+    <div id="modal-container" class="modal-container"></div>
+
+</section>
+
+<!-- contacto -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">Contactenos</h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="Nombre" class="box">
+            <input type="email" placeholder="Correo electronico" class="box">
+            <input type="number" placeholder="Celular" class="box">
+            <textarea name="" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="imagenes/pato.png" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!--  pie de pagina -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Redes sociales</h3>
+            <a href="https://www.instagram.com/lanovedaddelreloj" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/novedad.delreloj.3" target="_blank">Facebook</a>   
+        </div>
+        
+
+        <div class="box">
+            <h3>Teléfonos y correo</h3>
+            <a href="#">WhatsApp: (314) 644 69 83</a>
+            <a href="#">Telefono fijo: (604) 231 04 80</a>
+            <a href="#">Correo: lanovedaddelreloj@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>Ubicación</h3>
+            <!-- <a href="#">Medellin, Colombia</a> -->
+            <a href="#">Centro comercial ayacucho carabobo - local 201</a>
+            <a href="#">Dirección: Calle 49#52-48</a>
+        </div>
+    </div>
+
+    <div class="credit"> <span>La novedad del reloj</span> - todos los derechos reservados. </div>
+
+</section>
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
